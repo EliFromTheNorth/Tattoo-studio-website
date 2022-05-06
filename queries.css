@@ -1,0 +1,332 @@
+
+@media only screen and (max-width:500px) {
+    
+    .banner h1 {
+        font-size: 3rem; 
+        
+    }
+    
+    .banner h2, .banner h3 {
+    text-align: left;
+    
+    }
+    
+    .banner {
+        height: 200px
+    }
+    
+   
+    
+/*
+    .class-logo-mobile {
+    display: inline;
+    position: relative;
+    left: 35%;
+    transform: rotate(45deg);
+    
+}
+*/
+    
+    
+
+}
+
+
+@media only screen and (max-width:600px) {
+    
+        /************** ARTISTS **************/
+    
+    .artists {
+        width: 100%;
+
+    }    
+    
+.artists h3 {
+    transform: translate(50%,50)
+}
+    
+    .morticia {
+/*        flex-wrap: wrap-reverse;*/
+        flex-direction: column-reverse;
+        overflow: hidden;
+    }
+    
+.morticia-heading {
+    font-size: 1.50rem;
+    width: 300px;
+    text-align: center;
+    transform: translate(50%, )
+}
+    
+    
+ .morticia-text {
+    font-size: 1.50rem;
+    width: 60rem;
+    text-align: center;
+    transform: translate(50%, )
+}
+    
+    
+ .morticia-img {
+/*     display:none;*/
+     width: 350px;
+     height: 250px;
+     transform: translate(50%,0);
+     
+}   
+
+.edward {
+    margin-top: 40px;
+    height: auto;
+    width: auto;
+/*    transform: translate(50%,);*/
+/*   position: relative;*/
+    left: 5%;
+    text-align: center;
+    flex-wrap:wrap;
+
+} 
+
+
+.edward-text {
+   width: 60rem;
+    position: relative;
+     transform: translate(-15%,0);
+}
+
+ 
+.edward-img {
+/*    display:none;*/
+    width: 350px;
+    height: 250px;
+     transform: translate(-15%,0);
+    overflow: hidden;
+    margin: 0;
+    align-self: center;
+
+}
+    
+
+.edward-heading {
+    display:inline-block;
+    font-size: 1.50rem;
+    width: 300px;
+    text-align: center;
+    transform: translate(0%, )
+}
+
+}  
+.all-artists {
+    margin-left: 2;
+    margin-right: 2;
+
+}
+
+
+
+/*    NAV - HAMBURGER */
+
+@media only screen and (max-width:650px) {
+    nav ul li {
+        display: block;
+        margin: 48px 0;
+        background-color: hsl(0, 12%, 3%);
+        text-align: center;
+        width: 100%;
+        padding-top: 0;
+
+
+    }
+    
+    nav ul {
+        display: none;
+        position: fixed;
+        right: 0%;
+        top: -10%;
+        height: 110%;
+        width: 35%;
+        z-index: 900;
+        margin-top: 60px;
+        padding-top: 70px;
+        padding-right: 2%;
+    }
+    
+
+    
+    .mobile-nav-icon {
+        display: inline-block;
+        margin: 10px;
+        position: fixed;
+        right: 2%;
+        z-index: 1000;
+
+        
+    }
+    
+     .logo {
+        display: none;
+    }
+    
+/*
+    .mobile-nav-background {
+        height:200px;
+        width: 100%;
+        background-color: aqua;
+        border-bottom: 2px solid white;
+        
+    }
+    
+*/
+    .banner {
+    width: 100%;
+    height: 280px;
+    background-position: right bottom;
+        
+}
+
+}
+
+
+@media only screen and (max-width:800px) {
+
+    /************** BANNER **************/
+    
+    .banner .heading {
+    position: relative;
+    left: 0%;
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    }
+    
+    .banner h2, .banner h3 {
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;  
+    }
+    
+    }
+
+
+@media only screen and (max-width:985px) {
+    .adress-hours, .booking-social-media {
+        font-size: 1rem;
+        height: auto;
+    }
+        
+  
+    
+    .contact-boxes {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .booking-social-media, .adress-hours {
+        text-align: center;
+
+    }
+    
+        
+}
+
+
+@media only screen and (max-width:1050px) {
+    
+        /************** ARTISTS **************/
+    .artists img {
+        height: 313px;
+        width: 240px;
+        
+    }
+/*    spis neco at si to zachova velikost a neroztahne se pres cely konteiner */
+
+    }   
+
+
+
+ @media only screen and (max-width:1300px) {
+    
+     .contact-boxes {
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction: column;
+        width: 100%;
+        height: 30rem;
+        justify-items: center;
+         
+          
+
+     }
+     
+        .map {
+        position: relative;
+        display: block;
+                     margin: 0 auto;
+
+     }
+     
+     .contact-text {
+        height: auto;
+         width:auto;
+         margin: 0 auto;
+        
+
+}
+     
+     .adress-hours {
+         
+         
+     }
+     
+     .booking-social-media {
+         
+
+    
+   }
+ 
+}
+
+
+
+/*
+@media only screen and (max-width:1400px) {
+    
+    
+    
+.adress-hours, .booking-social-media, .map  {
+   position: static;
+    margin: 2%;
+    }
+*/
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
